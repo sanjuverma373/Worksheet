@@ -1,9 +1,9 @@
-import Page from './pages/Page'
+import Page from './components/Page'
 
 export default function Home() {
   return (
     <div>
-      <Page/>
+      <Page />
     </div>
   );
 }

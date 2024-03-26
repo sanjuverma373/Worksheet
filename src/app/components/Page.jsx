@@ -1,11 +1,11 @@
 "use client"
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Image from 'next/image';
 
-const page = () => {
-        const [first, setfirst] = useState("tab1")
+const Page = () => {
+        const [First, setFirst] = useState("tab1")
         function tabchanges(tabs) {
-                setfirst(tabs)
+                setFirst(tabs)
         }
         return (
                 <div className=' bg-black'>
@@ -22,10 +22,10 @@ const page = () => {
                                                         </div>
                                                         <h2 className='font-bold text-2xl text-black pb-8'>Months :--</h2>
                                                         <div className=' flex flex-col gap-9'>
-                                                                <button onClick={() => tabchanges("tab1")} className={` ${first === "tab1"} font-medium text-black px-5 py-3 hover:bg-slate-400 duration-300 rounded-lg border border-slate-400 `}>January</button>
-                                                                <button onClick={() => tabchanges("tab2")} className={` ${first === "tab2"} font-medium text-black px-5 py-3 hover:bg-slate-400 duration-300 rounded-lg border border-slate-400 `}>Febuary</button>
-                                                                <button onClick={() => tabchanges("tab3")} className={` ${first === "tab3"} font-medium text-black px-5 py-3 hover:bg-slate-400 duration-300 rounded-lg border border-slate-400 `}>March</button>
-                                                                <button onClick={() => tabchanges("tab4")} className={` ${first === "tab4"} font-medium text-black px-5 py-3 hover:bg-slate-400 duration-300 rounded-lg border border-slate-400 `}>April</button>
+                                                                <button onClick={() => tabchanges("tab1")} className={` ${First === "tab1"} font-medium text-black px-5 py-3 hover:bg-slate-400 duration-300 rounded-lg border border-slate-400 `}>January</button>
+                                                                <button onClick={() => tabchanges("tab2")} className={` ${First === "tab2"} font-medium text-black px-5 py-3 hover:bg-slate-400 duration-300 rounded-lg border border-slate-400 `}>Febuary</button>
+                                                                <button onClick={() => tabchanges("tab3")} className={` ${First === "tab3"} font-medium text-black px-5 py-3 hover:bg-slate-400 duration-300 rounded-lg border border-slate-400 `}>March</button>
+                                                                {/* <button onClick={() => tabchanges("tab4")} className={` ${first === "tab4"} font-medium text-black px-5 py-3 hover:bg-slate-400 duration-300 rounded-lg border border-slate-400 `}>April</button>
                                                                 <button onClick={() => tabchanges("tab5")} className={` ${first === "tab5"} font-medium text-black px-5 py-3 hover:bg-slate-400 duration-300 rounded-lg border border-slate-400 `}>May</button>
                                                                 <button onClick={() => tabchanges("tab6")} className={` ${first === "tab6"} font-medium text-black px-5 py-3 hover:bg-slate-400 duration-300 rounded-lg border border-slate-400 `}>June</button>
                                                                 <button onClick={() => tabchanges("tab7")} className={` ${first === "tab7"} font-medium text-black px-5 py-3 hover:bg-slate-400 duration-300 rounded-lg border border-slate-400 `}>July</button>
@@ -33,7 +33,7 @@ const page = () => {
                                                                 <button onClick={() => tabchanges("tab9")} className={` ${first === "tab9"} font-medium text-black px-5 py-3 hover:bg-slate-400 duration-300 rounded-lg border border-slate-400 `}>September</button>
                                                                 <button onClick={() => tabchanges("tab10")} className={` ${first === "tab10"} font-medium text-black px-5 py-3 hover:bg-slate-400 duration-300 rounded-lg border border-slate-400 `}>October</button>
                                                                 <button onClick={() => tabchanges("tab11")} className={` ${first === "tab11"} font-medium text-black px-5 py-3 hover:bg-slate-400 duration-300 rounded-lg border border-slate-400 `}>November</button>
-                                                                <button onClick={() => tabchanges("tab12")} className={` ${first === "tab12"} font-medium text-black px-5 py-3 hover:bg-slate-400 duration-300 rounded-lg border border-slate-400 `}>December</button>
+                                                                <button onClick={() => tabchanges("tab12")} className={` ${first === "tab12"} font-medium text-black px-5 py-3 hover:bg-slate-400 duration-300 rounded-lg border border-slate-400 `}>December</button> */}
                                                         </div>
                                                 </div>
                                         </div>
@@ -303,5 +303,5 @@ const page = () => {
         )
 }
 
-export default page
+export default Page
 
