@@ -43,7 +43,7 @@ const Page = () => {
                                                         <div className=' bg-slate-400 p-4 rounded-2xl shadow-xl w-full'>
                                                                 <h2 className='font-bold text-2xl text-black pb-8'>January Topics :--</h2>
                                                                 <div className=' bg-white flex gap-7 p-5 rounded-2xl '>
-                                                                        <div className=' gap-2 flex pb-3'>
+                                                                        <div className=' gap-2 flex'>
                                                                                 <p className='font-bold text-xl'>1.</p>
                                                                             <Image className=' object-cover rounded-xl' src="/image/furniture.png" alt='img' height={300} width={300}/>
                                                                                 
@@ -63,7 +63,7 @@ const Page = () => {
                                                                         </div>
                                                                 </div>
                                                                 <div className=' bg-white flex gap-7 p-5 rounded-2xl mt-7 '>
-                                                                        <div className=' gap-2 flex pb-3'>
+                                                                        <div className=' gap-2 flex '>
                                                                                 <p className='font-bold text-xl'>2.</p>
                                                                             <Image className=' object-cover rounded-xl' src="/image/lemonwaris.png" alt='img' height={300} width={300}/>
                                                                                 
@@ -83,7 +83,7 @@ const Page = () => {
                                                                         </div>
                                                                 </div>
                                                                 <div className=' bg-white flex gap-7 p-5 rounded-2xl mt-7 '>
-                                                                        <div className=' gap-2 flex pb-3'>
+                                                                        <div className=' gap-2 flex '>
                                                                                 <p className='font-bold text-xl'>3.</p>
                                                                             <Image className=' object-cover rounded-xl' src="/image/aviation.png" alt='img' height={300} width={300}/>
                                                                                 
@@ -109,7 +109,7 @@ const Page = () => {
                                                                 <div className=' bg-slate-400 p-4 rounded-2xl w-full h-[1080px] overflow-hidden overflow-y-scroll flex flex-col'>
                                                                         <h2 className='font-bold text-2xl text-black pb-8'>Febuary Topics :--</h2>
                                                                         <div className=' bg-white flex gap-7 p-5 rounded-2xl '>
-                                                                                <div className=' gap-2 flex pb-3'>
+                                                                                <div className=' gap-2 flex '>
                                                                                         <p className='font-bold text-xl'>1.</p>
                                                                                     <Image className=' object-cover rounded-xl' src="/image/game.png" alt='img' height={300} width={300}/>
                                                                 
@@ -129,7 +129,7 @@ const Page = () => {
                                                                                 </div>
                                                                         </div>
                                                                         <div className=' bg-white flex gap-7 p-5 rounded-2xl mt-7 '>
-                                                                                <div className=' gap-2 flex pb-3'>
+                                                                                <div className=' gap-2 flex '>
                                                                                         <p className='font-bold text-xl'>2.</p>
                                                                                     <Image className=' object-cover rounded-xl' src="/image/dinolfg.png" alt='img' height={300} width={300}/>
                                                                 
@@ -149,7 +149,7 @@ const Page = () => {
                                                                                 </div>
                                                                         </div>
                                                                         <div className=' bg-white flex gap-7 p-5 rounded-2xl mt-7 '>
-                                                                                <div className=' gap-2 flex pb-3'>
+                                                                                <div className=' gap-2 flex '>
                                                                                         <p className='font-bold text-xl'>3.</p>
                                                                                     <Image className=' object-cover rounded-xl' src="/image/nexai.png" alt='img' height={300} width={300}/>
                                                                 
@@ -169,7 +169,7 @@ const Page = () => {
                                                                                 </div>
                                                                         </div>
                                                                         <div className=' bg-white flex gap-7 p-5 rounded-2xl mt-7 '>
-                                                                                <div className=' gap-2 flex pb-3'>
+                                                                                <div className=' gap-2 flex'>
                                                                                         <p className='font-bold text-xl'>4.</p>
                                                                                     <Image className=' object-cover rounded-xl' src="/image/calculator.png" alt='img' height={200} width={200}/>
                                                                 
@@ -189,7 +189,7 @@ const Page = () => {
                                                                                 </div>
                                                                         </div>
                                                                         <div className=' bg-white flex gap-7 p-5 rounded-2xl mt-7 '>
-                                                                                <div className=' gap-2 flex pb-3'>
+                                                                                <div className=' gap-2 flex'>
                                                                                         <p className='font-bold text-xl'>5.</p>
                                                                                     <Image className=' object-cover rounded-xl' src="/image/nexai.png" alt='img' height={300} width={300}/>
                                                                 
@@ -215,7 +215,7 @@ const Page = () => {
                                                         <div className=' bg-slate-400 p-4 rounded-2xl w-full h-[1080px] overflow-hidden overflow-y-scroll flex flex-col'>
                                                                         <h2 className='font-bold text-2xl text-black pb-8'>March Topics :--</h2>
                                                                         <div className=' bg-white flex gap-7 p-5 rounded-2xl '>
-                                                                                <div className=' gap-2 flex pb-3'>
+                                                                                <div className=' gap-2 flex'>
                                                                                         <p className='font-bold text-xl'>1.</p>
                                                                                     <Image className=' object-cover rounded-xl' src="/image/cloopp.png" alt='img' height={300} width={300}/>
                                                                 
@@ -235,7 +235,7 @@ const Page = () => {
                                                                                 </div>
                                                                         </div>
                                                                         <div className=' bg-white flex gap-7 p-5 rounded-2xl mt-7 '>
-                                                                                <div className=' gap-2 flex pb-3'>
+                                                                                <div className=' gap-2 flex'>
                                                                                         <p className='font-bold text-xl'>2.</p>
                                                                                     <Image className=' object-cover rounded-xl' src="/image/248labs.png" alt='img' height={300} width={300}/>
                                                                 
@@ -255,7 +255,7 @@ const Page = () => {
                                                                                 </div>
                                                                         </div>
                                                                         <div className=' bg-white flex gap-7 p-5 rounded-2xl mt-7 '>
-                                                                                <div className=' gap-2 flex pb-3'>
+                                                                                <div className=' gap-2 flex'>
                                                                                         <p className='font-bold text-xl'>3.</p>
                                                                                     <Image className=' object-cover rounded-xl' src="/image/form-validation.png" alt='img' height={300} width={300}/>                                                                
                                                                                 </div>
@@ -274,7 +274,7 @@ const Page = () => {
                                                                                 </div>
                                                                         </div>
                                                                         <div className=' bg-white flex gap-7 p-5 rounded-2xl mt-7 '>
-                                                                                <div className=' gap-2 flex pb-3'>
+                                                                                <div className=' gap-2 flex '>
                                                                                         <p className='font-bold text-xl'>4.</p>
                                                                                     <Image className=' object-cover rounded-xl' src="/image/next-js.png" alt='img' height={300} width={300}/>
                                                                 
