@@ -284,17 +284,17 @@ const Page = () => {
                                                                                         <p className=' font-bold pb-3 text-xl'>Next-js</p>
                                                                                                 <div className=' flex items-center gap-2'>
                                                                                                         <p className='font-bold'>Github-Link:-</p>
-                                                                                                        <a href="https://github.com/sanjuverma373/form-validation.git" target='_blank'>https://github.com/sanjuverma373/form-validation.git</a>
+                                                                                                        <a href="https://github.com/sanjuverma373/nx-page.git" target='_blank'>https://github.com/sanjuverma373/nx-page.git</a>
                                                                                                 </div>
                                                                                                 <div className=' flex items-center gap-2 pt-2'>
                                                                                                         <p className='font-bold'>Vercel-Link:-</p>
-                                                                                                        <a href="https://form-validation-kappa-two.vercel.app/" target='_blank'>https://form-validation-kappa-two.vercel.app/</a>
+                                                                                                        <a href="https://nx-page.vercel.app/" target='_blank'>https://nx-page.vercel.app/</a>
                                                                                                 </div>
                                                                                         </div>
                                                                                 </div>
                                                                         </div>                                                                
                                                                 </div> 
-                                                }
+                                                }~
 
                                         </div>
                                 </div>
