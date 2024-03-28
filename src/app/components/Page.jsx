@@ -293,6 +293,26 @@ const Page = () => {
                                                                                         </div>
                                                                                 </div>
                                                                         </div>                                                                
+                                                                        <div className=' bg-white flex gap-7 p-5 rounded-2xl mt-7 '>
+                                                                                <div className=' gap-2 flex '>
+                                                                                        <p className='font-bold text-xl'>5.</p>
+                                                                                    <Image className=' object-cover rounded-xl' src="/image/swipslid.png" alt='img' height={300} width={300}/>
+                                                                
+                                                                                </div>
+                                                                                <div className=' flex gap-6'>
+                                                                                        <div>
+                                                                                        <p className=' font-bold pb-3 text-xl'>Swiper-Slider</p>
+                                                                                                <div className=' flex items-center gap-2'>
+                                                                                                        <p className='font-bold'>Github-Link:-</p>
+                                                                                                        <a href="https://github.com/sanjuverma373/swiperslider.git" target='_blank'>https://github.com/sanjuverma373/swiperslider.git</a>
+                                                                                                </div>
+                                                                                                <div className=' flex items-center gap-2 pt-2'>
+                                                                                                        <p className='font-bold'>Vercel-Link:-</p>
+                                                                                                        <a href="https://swiperslider-zeta.vercel.app/" target='_blank'>https://swiperslider-zeta.vercel.app/</a>
+                                                                                                </div>
+                                                                                        </div>
+                                                                                </div>
+                                                                        </div>                                                                
                                                                 </div> 
                                                 }~
 
