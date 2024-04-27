@@ -359,6 +359,26 @@ const Page = () => {
                                                                                         </div>
                                                                                 </div>
                                                                         </div>                                                                                                                                        
+                                                                        <div className=' bg-white flex gap-7 p-5 mt-7 rounded-2xl '>
+                                                                                <div className=' gap-2 flex'>
+                                                                                        <p className='font-bold text-xl'>3.</p>
+                                                                                    <Image className=' object-cover rounded-xl' src="/image/hubrich.png" alt='img' height={300} width={300}/>
+                                                                
+                                                                                </div>
+                                                                                <div className=' flex gap-6'>
+                                                                                        <div>
+                                                                                        <p className=' font-bold pb-3 text-xl'>Hubrich</p>
+                                                                                                <div className=' flex items-center gap-2'>
+                                                                                                        <p className='font-bold'>Github-Link:-</p>
+                                                                                                        <a href="https://github.com/sanjuverma373/hubrich.git" target='_blank'>https://github.com/sanjuverma373/hubrich.git</a>
+                                                                                                </div>
+                                                                                                <div className=' flex items-center gap-2 pt-2'>
+                                                                                                        <p className='font-bold'>Netlify-Link:-</p>
+                                                                                                        <a href="https://imaginative-selkie-3d1714.netlify.app/" target='_blank'>https://imaginative-selkie-3d1714.netlify.app/</a>
+                                                                                                </div>
+                                                                                        </div>
+                                                                                </div>
+                                                                        </div>                                                                                                                                        
                                                                 </div> 
                                                 }
 
