@@ -378,7 +378,27 @@ const Page = () => {
                                                                                                 </div>
                                                                                         </div>
                                                                                 </div>
-                                                                        </div>                                                                                                                                        
+                                                                        </div> 
+                                                                        <div className=' bg-white flex gap-7 p-5 mt-7 rounded-2xl '>
+                                                                                <div className=' gap-2 flex'>
+                                                                                        <p className='font-bold text-xl'>4.</p>
+                                                                                    <Image className=' object-cover rounded-xl' src="/image/kodeden.png" alt='img' height={300} width={300}/>
+                                                                
+                                                                                </div>
+                                                                                <div className=' flex gap-6'>
+                                                                                        <div>
+                                                                                        <p className=' font-bold pb-3 text-xl'>Kodeden</p>
+                                                                                                <div className=' flex items-center gap-2'>
+                                                                                                        <p className='font-bold'>Github-Link:-</p>
+                                                                                                        <a href="https://github.com/sanjuverma373/kodeden.git" target='_blank'>https://github.com/sanjuverma373/kodeden.git</a>
+                                                                                                </div>
+                                                                                                <div className=' flex items-center gap-2 pt-2'>
+                                                                                                        <p className='font-bold'>Vercel-Link:-</p>
+                                                                                                        <a href="https://kodeden-liart.vercel.app/" target='_blank'>https://kodeden-liart.vercel.app/</a>
+                                                                                                </div>
+                                                                                        </div>
+                                                                                </div>
+                                                                        </div>                                                                                                                                       
                                                                 </div> 
                                                 }
 
